@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<title>INSTITUTO DECK</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/*body {font-family: "Lato", sans-serif}*/
+body {font-family: 'Montserrat', sans-serif;}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card-2" style="background-color:#111111;color:#d7ccc8;">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#quienes-somos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">QUIÉNES SOMOS</a>
+    <!-- <a href="#cursos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CURSOS</a> -->
+    <div class="w3-dropdown-hover w3-hide-small">
+     <button class="w3-padding-large w3-button" title="More" >CURSOS <i class="fa fa-caret-down"></i></button>
+     <div class="w3-dropdown-content w3-bar-block w3-card-4" style="background-color:#111111;color:#d7ccc8">
+       <a href="#" class="w3-bar-item w3-button">Inglés americano</a>
+       <a href="#" class="w3-bar-item w3-button">Inglés británico</a>
+       <a href="#" class="w3-bar-item w3-button">Alemán</a>
+     </div>
+   </div>
+    <a href="#profesores" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROFESORES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONSULTAS</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px;background-color:#111111;color:#d7ccc8;">
+  <a href="#quienes-somos" class="w3-bar-item w3-button w3-padding-large">QUIÉNES SOMOS</a>
+  <a href="#cursos" class="w3-bar-item w3-button w3-padding-large">CURSOS</a>
+  <a href="#profesores" class="w3-bar-item w3-button w3-padding-large">PROFESORES</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONSULTAS</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:auto">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./wallpaper3.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1 style="font-size:50px;font-family: 'Montserrat', sans-serif;">INSTITUTO DECK</h1>
+      <p><b>La mejor educación es aprender con nosotros</b></p>
+    </div>
+  </div>
+
+  <!-- Quiénes somos -->
+  <div id="quienes-somos" style="background-color:#d7ccc8">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;">
+      <h1 style="font-family: 'Montserrat', sans-serif;" class="w3-wide" style="font-family: 'Montserrat', sans-serif;">¿QUIÉNES SOMOS?</h1>
+      <!-- <p class="w3-opacity"><i>We love music</i></p> -->
+      <p class="w3-justify">El Instituto Deck está dedicado a la enseñanza de idiomas desde hace más de 20 años. Acá se formaron, entre otros, Ricardo Gabriel Azcurra, Agustín Vilte y Marcelo Medina.
+        El instituto está ubicado en Avenida 100 al 1200 entre la Calle 80 y Calle 120.
+        Actualmente, contamos con más de 150 alumnos.
+        También, realizamos eventos para recaudar fondos y realizar viajes al exterior para mejorar la calidad de nuestros estudiantes.</p>
+        <p class="w3-justify">Tenemos las inscripciones abiertas todo el año así que si estás interesado, sumate que no te vas a arrepentir.</p>
+        <p class="w3-justify">"Si quieres dominar el mundo, aprende inglés con el gigoló. Si quieres ser el rey de la seducción, mandá Ricardo al 2020".</p>
+      </div>
+  </div>
+
+  <!-- Cursos -->
+  <div style="background-color:#6d4c41;color:white;" id="cursos">
+
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h1 style="font-family: 'Montserrat', sans-serif;" class="w3-wide w3-center">CURSOS</h1>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="./flag-us.jpg" alt="New York" style="width:100%;border-style:solid;border-color:#FFF" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Inglés americano</b></p>
+            <p class="w3-opacity">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="./flag-gb.jpg" alt="Paris" style="width:100%;border-style:solid;border-color:#FFF" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Inglés británico</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="./flag-germany.jpg" alt="San Francisco" style="width:100%;border-style:solid;border-color:#FFF" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Alemán</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profesores -->
+  <div id="profesores" style="background-color:#d7ccc8;">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+      <h1 style="font-family: 'Montserrat', sans-serif;" class="w3-wide">PROFESORES</h1>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <a href="./profesor.html">
+            <p>Ricardo Azcurra</p>
+            <img src="./teacher4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:75%;border-radius:50%;">
+          </a>
+        </div>
+        <div class="w3-third">
+          <p>Marcelo Medina</p>
+          <img src="./teacher6.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:75%;border-radius:50%;">
+        </div>
+        <div class="w3-third">
+          <p>Agustín Vilte</p>
+          <img src="./teacher5.jpeg" class="w3-round" alt="Random Name" style="width:75%;border-radius:50%;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <!-- <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32">
+        <span onclick="document.getElementById('ticketModal').style.display='none'"
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h1 style="font-family: 'Montserrat', sans-serif;" class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h1>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- CONSULTA -->
+  <div id="contact" style="background-color:#6d4c41;color:white;">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h1 style="font-family: 'Montserrat', sans-serif;" class="w3-wide w3-center">CONSULTA</h1>
+      <p class="w3-opacity w3-center"><i>Si tienes alguna duda o inquietud, podés preguntarnos y te respondemos al instante.</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> La Rioja<br>
+          <i class="fa fa-phone" style="width:30px"></i> Teléfono: +54 3804 123456<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: institutodeck@mail.com<br>
+        </div>
+        <div class="w3-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Correo electrónico" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Consulta" required name="Message">
+            <button class="w3-button w3-section w3-right" style="background-color:#d7ccc8;color:#6d4c41;border-radius:20px;" type="submit">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End Page Content -->
+</div>
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
+<script>
+function myMap() {
+  myCenter=new google.maps.LatLng(-29.421243, -66.867012);
+  var mapOptions= {
+    center:myCenter,
+    zoom:15, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU_1ysxgadyGgkWMaKblsVyPkcuoVPBus&callback=myMap"></script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center w3-xlarge" style="background-color:#111111;color:#d7ccc8;">
+  <p class="w3-medium">Realizado por <a href="https://www.monstering.com" target="_blank">MONSTER ING.</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    // setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
